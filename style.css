@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 20%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav a{
+   color: rgb(162, 15, 15);
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 20px;
+}
+.index{
+    height: 60%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    
+}
+.main{
+    height: 100%;
+    width:75%;
+    background-color: blue;
+    background-image: url(./OIG3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+     height: 100%;
+     width: 25%;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+}
+.box1{
+    height: 33.3%;
+    width: 100%;
+    background-color: grey;
+    background-image: url(./OIP1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    height: 33.3%;
+    width: 100%;
+    background-color: grey;
+    background-image: url(./oip3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    height: 33.3%;
+    width: 100%;
+    background-color: grey;
+    background-image: url(./mainss.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second{
+    height: 40%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+.one{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 25px;
+    
+}
+.two{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+
+}
+.one h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.line{
+    height: 0.5%;
+    width: 60%;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.one h3{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.two {
+    display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  /* Adjust to your desired size */
+  border: 1px solid #ccc; /* Optional styling */
+  /* gap: 50px; */
+  justify-content: space-evenly;
+  
+  }
+  
+  .child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4; /* Optional styling */
+    border: 1px solid #333; /* Optional styling */
+
+  }
+  .child1 h1{
+    margin: 30px;
+  }
+  .child1 p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .child1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+  }
+  .child2 h1{
+    margin: 30px;
+  }
+  .child2 p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .child2{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+  }
+  .child3 h1{
+    margin: 30px;
+  }
+  .child3 p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .child3{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+  }
+  .child4 h1{
+    margin: 30px;
+  }
+  .child4 p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .child4{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+  }
+
